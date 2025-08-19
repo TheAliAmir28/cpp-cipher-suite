@@ -1,7 +1,3 @@
-//Title: Atbash.h
-//Author: Jeremy Dixon
-//Date: 4/1/2025
-//Description: This is part of the Cipher Project in CMSC 202 @ UMBC
 #ifndef ATBASH_H
 #define ATBASH_H
 #include "Cipher.h"
@@ -47,5 +43,6 @@ class Atbash: public Cipher {
   //                  message, delimiter are returned for output
   string FormatOutput();
 };
+
 
 #endif
