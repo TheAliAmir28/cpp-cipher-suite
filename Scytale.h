@@ -1,8 +1,3 @@
-//Title: Scytale.h
-//Author: Jeremy Dixon
-//Date: 4/1/2025
-//Description: This is part of the Cipher Project in CMSC 202 @ UMBC
-
 #ifndef SCYTALE_H
 #define SCYTALE_H
 #include "Cipher.h"
@@ -54,6 +49,7 @@ public:
 private:
   int m_key; //Number of columns (determines transposition)
 };
+
 
 
 #endif
