@@ -1,7 +1,3 @@
-//Title: CipherTool.h
-//Author: Jeremy Dixon
-//Date: 4/1/2025
-//Description: This is part of the Cipher Project in CMSC 202 @ UMBC
 #ifndef CIPHERTOOL_H
 #define CIPHERTOOL_H
 #include "Cipher.h"
@@ -70,4 +66,5 @@ private:
   vector<Cipher*> m_ciphers; //List of all Ciphers
   string m_filename; //Name of the file passed from proj4.cpp
 };
+
 #endif
