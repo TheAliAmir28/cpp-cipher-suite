@@ -1,8 +1,3 @@
-//Title: Ong.h
-//Author: Jeremy Dixon
-//Date: 4/1/2025
-//Description: This is part of the Cipher Project in CMSC 202 @ UMBC
-
 #ifndef ONG_H
 #define ONG_H
 #include "Cipher.h"
@@ -61,5 +56,6 @@ class Ong: public Cipher{
   //                  message, delimiter, blank are output
   string FormatOutput();
 };
+
 
 #endif
