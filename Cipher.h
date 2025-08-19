@@ -1,7 +1,3 @@
-//Title: Cipher.h
-//Author: Jeremy Dixon
-//Date: 4/1/2025
-//Description: This is part of the Cipher Project in CMSC 202 @ UMBC
 #ifndef CIPHER_H
 #define CIPHER_H
 #include <iostream>
@@ -78,5 +74,6 @@ private:
   string m_message; //The message being encrypted/decrypted
   bool m_isEncrypted; //Indicates if the message is encrypted/decrypted
 };
+
 
 #endif
